@@ -7,9 +7,12 @@ html{
     font-size: 16px;
     font-family: 'Roboto', sans-serif;
 }
-
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
 /* css del header de la pagina */
-
 .container-header-information{
     width: 100%;
     height: 50vh;
@@ -20,18 +23,35 @@ html{
 }
 .container-header-details{
     position: absolute;
-    bottom: 20px;
+    bottom: 50px;
     right: 50px;
 }
+/* css de la imagen */
 .container-header-image{
-    padding: 0 200px;
+    padding: 0 15%;
 }
+.container-header-image img{
+    animation-name: flotante;
+    animation-duration: 3s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes flotante{
+    0%{
+        transform: translate(0, -10px);
+    }
+    100%{
+        transform: translate(0, 10px);
+    }
+}
+
 .container-header-title{
-    font-size: 1.2em;
+    font-size: 1.3em;
     text-align: center;
 }
 .container-header-details{
-    width: 400px;
+    width: 450px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -56,25 +76,4 @@ html{
 }
 .fa-whatsapp{
     color: #38be4b;
-}
-
-/* css del container botones de los libros */
-.container-curse-links{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-.container-buttons-curse{
-    width: 80%;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
-.button-curse-link{
-    text-decoration: none;
-    color: black;
-    padding: 5px 10px;
-    border: 1px solid black;
-    border-radius: 5px;
 }
