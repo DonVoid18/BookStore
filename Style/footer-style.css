@@ -1,0 +1,24 @@
+.container-footer{
+    width: 100%;
+    height: 3.425rem;
+    background-color: #3A0CA3;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+.item-footer-link a{
+    color: white;
+    text-decoration: none;
+}
+.item-footer-link a:hover{
+    text-decoration: underline;
+}
+.item-footer-link a:visited{
+    color: yellow;
+}
+
+/* css del icono */
+.item-footer-link i{
+    padding-left: 0.3125rem;
+}
