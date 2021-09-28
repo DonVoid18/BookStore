@@ -1,0 +1,72 @@
+main{
+    flex-grow: 1;
+}
+
+.container-section{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0.625rem 0;
+}
+.container-section-title{
+    background-color: #D90429;
+    color: white;
+    padding: 1.25rem;
+    text-align: center;
+    width: 90%;
+    border-radius: 0.3125rem 0.3125rem 0 0;
+}
+.container-section-books{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-bottom: 0.0625rem solid #D5DCE3;
+    border-left: 0.0625rem solid #D5DCE3;
+    border-right: 0.0625rem solid #D5DCE3;
+    border-radius: 0 0 0.3125rem 0.3125rem;
+}
+/* CSS DEL CONTENEDOR PRODUCTO */
+.container-book{
+    width: 6.875rem;
+    height: 14.0625rem;
+    background-color: #EDF2F4;
+    font-size: 0.8em;
+    padding: 0.3125rem;
+    margin: 0.625rem;
+    border-radius: 0.3125rem;
+    position: relative;
+    transition: 0.3s ease;
+}
+.container-book:hover{
+    transform: translate(0, -3px);
+    box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.75);
+    cursor: pointer;
+}
+.container-book-image{
+    width: 5rem;
+    margin: auto;
+}
+.container-book-image img{
+    width: 100%;
+}   
+.container-book-information{
+    padding: 0.3125rem 0;
+}
+.book-information-code{
+    font-size: 0.625rem;
+    position: absolute;
+    bottom: 0.3125rem;
+    right: 0.3125rem;
+    color: #8D99AE;
+}
+.book-information-price{
+    text-align: right;
+    position: absolute;
+    bottom: 1.25rem;
+    right: 0.3125rem;
+    font-size: 0.9375rem;
+    color: red;
+}
