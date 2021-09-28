@@ -9,47 +9,66 @@ html{
 }
 
 /* css del header de la pagina */
-
-.container-header-information{
+.header-principal{
     width: 100%;
-    height: 50vh;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    position: relative;
+    background-color: #2B2D42;
+    color: white;
 }
-.container-header-details{
-    position: absolute;
-    bottom: 20px;
-    right: 50px;
-}
-.container-header-image{
-    padding: 0 200px;
-}
-.container-header-title{
-    font-size: 1.2em;
-    text-align: center;
-}
-.container-header-details{
-    width: 400px;
+.container-header{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    flex-wrap: wrap;
+    position: relative;
 }
-.container-header-details i{
-    padding-left: 3px;
+/* CSS DEL TITULO DE LA PAGINA */
+.container-header-title{
+    text-align: center;
 }
-/* css de los botones link */
+.container-header-title h1{
+    font-size: 3em;
+}
+/* CSSS DE LA IMAGEN DE LA PAGINA */
+.container-header-image{
+    width: 23rem;
+}
+.container-header-image img{
+    width: 100%;
+    animation-name: flotation;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes flotation {
+    0%{
+        transform: rotateY(180deg);
+    }
+}
+/* CSS DE LOS BOTONES */
+.container-header-details{
+    width: 25rem;
+    position: absolute;
+    right: 1.25rem;
+    bottom: 1.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
 .button-details-contacts{
-    padding: 5px 10px;
+    padding: 0.3125rem 0.625rem;
     border: 1px solid black;
-    border-radius: 5px;
+    border-radius: 0.3125rem;
     text-decoration: none;
     color: black;
     transition: 0.3s ease-in;
+    background-color: white;
 }
 .button-details-contacts:hover{
-    transform: translate(-0px, -5px);
+    transform: translate(-0rem, -0.3125rem);
+}
+.button-details-contacts i{
+    padding-left: 0.1875rem;
 }
 .fa-facebook{
     color: #047bf4;
@@ -58,23 +77,40 @@ html{
     color: #38be4b;
 }
 
-/* css del container botones de los libros */
-.container-curse-links{
-    width: 100%;
-    display: flex;
-    justify-content: center;
+/* medias querys del header */
+@media (max-width: 992px){
+    html{
+        font-size: 14px;
+    }
+    .container-header-title{
+        width: 28.75rem;
+    }
 }
-.container-buttons-curse{
-    width: 80%;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+@media (max-width: 768px){
+    html{
+        font-size: 12px;
+    }
 }
-.button-curse-link{
-    text-decoration: none;
-    color: black;
-    padding: 5px 10px;
-    border: 1px solid black;
-    border-radius: 5px;
+@media (max-width: 645px){
+    html{
+        font-size: 12px;
+    }
+    .container-header-details{
+        position: initial;
+        padding: 1.25rem 0;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+@media (max-width: 450px){
+    html{
+        font-size: 10px;
+    }
+    .container-header-details{
+        position: initial;
+        padding: 1.25rem 0;
+    }
+    .container-footer{
+        flex-wrap: wrap;
+    }
 }
