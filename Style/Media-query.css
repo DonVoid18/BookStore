@@ -1,0 +1,37 @@
+/* medias querys del header */
+@media (max-width: 992px){
+    html{
+        font-size: 14px;
+    }
+    .container-header-title{
+        width: 28.75rem;
+    }
+}
+@media (max-width: 768px){
+    html{
+        font-size: 12px;
+    }
+}
+@media (max-width: 645px){
+    html{
+        font-size: 12px;
+    }
+    .container-header-details{
+        position: initial;
+        padding: 1.25rem 0;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+@media (max-width: 450px){
+    html{
+        font-size: 10px;
+    }
+    .container-header-details{
+        position: initial;
+        padding: 1.25rem 0;
+    }
+    .container-footer{
+        flex-wrap: wrap;
+    }
+}
