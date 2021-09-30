@@ -87,8 +87,3 @@ function createBook(imagen,name,type,price,code){
     book.appendChild(container_information);
     return book;
 }
-
-/*
-Necesitamos crear la seccion desde cero
-
-*/
