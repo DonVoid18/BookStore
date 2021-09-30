@@ -1,0 +1,40 @@
+[
+    {
+        "curse": "álgebra",
+        "books":[
+            {
+                "id": 123,
+                "name": "Cronometría",
+                "type": "folleto",
+                "price": 12,
+                "image": "asdf"
+            },
+            {
+                "id": 148,
+                "name": "Productos Notables",
+                "type": "libro",
+                "price": 15,
+                "image": "apt"
+            }
+        ]
+    },
+    {
+        "curse": "raz. matemático",
+        "books":[
+            {
+                "id": 123,
+                "name": "Cronometría",
+                "type": "folleto",
+                "price": 12,
+                "image": "asdf"
+            },
+            {
+                "id": 148,
+                "name": "Productos Notables",
+                "type": "libro",
+                "price": 15,
+                "image": "apt"
+            }
+        ]
+    }
+]
