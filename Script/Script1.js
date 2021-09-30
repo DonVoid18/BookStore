@@ -33,7 +33,6 @@ function createSection(section_json){
     /* falta optimizar */
     for (let i = 0; i < section_json.books.length; i++) {
         let book = section_json.books[i];
-        console.log(book);
         section_books.appendChild(createBook(book.image,book.name,book.type,book.price,book.id));
     }
     section.appendChild(section_books);
