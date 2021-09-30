@@ -53,7 +53,7 @@ function createBook(imagen,name,type,price,code){
     container_image.classList.add("container-book-image");
     
     let image = document.createElement("IMG");
-    image.setAttribute("src","image");
+    image.setAttribute("src",`Image/${imagen}`);
     image.setAttribute("loading","lazy");
     book.appendChild(container_image);
     container_image.appendChild(image);
