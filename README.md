@@ -5,3 +5,7 @@
 
 - 📫 Cómo comunicarse conmigo **angelopatrickriosnolasco@gmail.com**
 <img src="Image/representation.png" target="_blank">
+<p>Si ya tienes GIT intalado solo basta con colocar el siguiente comando en tu consola.</p>
+```
+    git clone origin Proyect-BookStore
+```
