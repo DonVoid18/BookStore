@@ -1,39 +1,220 @@
 [
     {
-        "curse": "álgebra",
+        "curse": "LENGUAJE",
         "books":[
             {
-                "id": 123,
-                "name": "Cronometría",
+                "id": "023",
+                "name": "Compendio",
                 "type": "folleto",
-                "price": 12,
-                "image": "asdf"
+                "price": 3,
+                "image": "lenguaje-compe.jpeg"
             },
             {
-                "id": 148,
-                "name": "Productos Notables",
-                "type": "libro",
-                "price": 15,
-                "image": "apt"
+                "id": "024",
+                "name": "Repaso",
+                "type": "folleto",
+                "price": 1,
+                "image": "lenguaje-repaso.jpeg"
+            },
+            {
+                "id": "025",
+                "name": "Repaso",
+                "type": "folleto",
+                "price": 1,
+                "image": "lenguaje-repaso1.jpeg"
+            },
+            {
+                "id": "026",
+                "name": "Repaso",
+                "type": "folleto",
+                "price": 2,
+                "image": "lenguaje.jpeg"
             }
         ]
     },
     {
-        "curse": "raz. matemático",
+        "curse": "ÁLGEBRA",
         "books":[
             {
-                "id": 123,
-                "name": "Cronometría",
+                "id": "001",
+                "name": "Productos Notables",
                 "type": "folleto",
-                "price": 12,
-                "image": "libro2.jpg"
+                "price": 1,
+                "image": "productosNotables.jpeg"
             },
             {
-                "id": 148,
-                "name": "Productos Notables",
-                "type": "libro",
-                "price": 15,
-                "image": "apt"
+                "id": "002",
+                "name": "Logaritmos",
+                "type": "folleto",
+                "price": 1,
+                "image": "logaritmos.jpeg"
+            }
+        ]
+    },
+    {
+        "curse": "ARITMÉTICA",
+        "books":[
+            {
+                "id": "003",
+                "name": "Divisibilidad",
+                "type": "folleto",
+                "price": 2,
+                "image": "Ari-divisibilidad.jpeg"
+            },
+            {
+                "id": "004",
+                "name": "Números Primos",
+                "type": "folleto",
+                "price": 2,
+                "image": "Ari-numerosPrimos.jpeg"
+            },
+            {
+                "id": "005",
+                "name": "Problemas y Teoría",
+                "type": "folleto",
+                "price": 2,
+                "image": "Ari-problemasTeorias.jpeg"
+            },
+            {
+                "id": "006",
+                "name": "Razones y Proporsiones",
+                "type": "folleto",
+                "price": 2,
+                "image": "Ari-RazonesProporcionadas.jpeg"
+            },
+            {
+                "id": "007",
+                "name": "Regla de Interés",
+                "type": "folleto",
+                "price": 2,
+                "image": "Ari-reglaInteres.jpeg"
+            },
+            {
+                "id": "008",
+                "name": "Regla de Interés",
+                "type": "folleto",
+                "price": 2,
+                "image": "Ari-reglaTres.jpeg"
+            },
+            {
+                "id": "009",
+                "name": "Sistemas de Numeración",
+                "type": "folleto",
+                "price": 2,
+                "image": "Ari-sistemaDeNumeracion.jpeg"
+            },
+            {
+                "id": "010",
+                "name": "Teoría de Conjuntos",
+                "type": "folleto",
+                "price": 2,
+                "image": "Ari-teoriaDeConjuntos.jpeg"
+            }
+        ]
+    },
+    {
+        "curse": "GEOMETRÍA - TRIGONOMETRÍA - FÍSICA",
+        "books":[
+            {
+                "id": "011",
+                "name": "Compendio",
+                "type": "folleto",
+                "price": 3,
+                "image": "geo-compendio.jpeg"
+            },
+            {
+                "id": "012",
+                "name": "Razones Trigonométricas",
+                "type": "folleto",
+                "price": 2,
+                "image": "trigo-razones.jpeg"
+            },
+            {
+                "id": "027",
+                "name": "Física Repaso",
+                "type": "folleto",
+                "price": 2,
+                "image": "fisica-teoriaPractica.jpeg"
+            }
+        ]
+    },
+    {
+        "curse": "RAZ. MATEMÁTICO",
+        "books":[
+            {
+                "id": "013",
+                "name": "Áreas y perímetros",
+                "type": "folleto",
+                "price": 1,
+                "image": "RazMate-areas.jpeg"
+            },
+            {
+                "id": "014",
+                "name": "Planteo de Ecuaciones",
+                "type": "folleto",
+                "price": 1,
+                "image": "RazMate-edadesEcuaciones.jpeg"
+            },
+            {
+                "id": "015",
+                "name": "Estadística",
+                "type": "folleto",
+                "price": 1,
+                "image": "RazMate-estadistica.jpeg"
+            },
+            {
+                "id": "016",
+                "name": "Razonamiento Inductivo y Deductivo",
+                "type": "folleto",
+                "price": 1,
+                "image": "RazMate-inductivoydeductivo.jpeg"
+            },
+            {
+                "id": "017",
+                "name": "Móviles y Cronomtría",
+                "type": "folleto",
+                "price": 1,
+                "image": "RazMate-movilesCrono.jpeg"
+            },
+            {
+                "id": "018",
+                "name": "Teoría y Ejercicios",
+                "type": "folleto",
+                "price": 1,
+                "image": "RazMate-teoriayproblemas.jpeg"
+            },
+            {
+                "id": "019",
+                "name": "Triángulos",
+                "type": "folleto",
+                "price": 1,
+                "image": "RazMate-triangulos.jpeg"
+            }
+        ]
+    },
+    {
+        "curse": "RAZ. VERBAL",
+        "books":[
+            {
+                "id": "020",
+                "name": "Compendio",
+                "type": "folleto",
+                "price": 2,
+                "image": "RazVerbal-Compendio.jpeg"
+            },
+            {
+                "id": "021",
+                "name": "Etimologías",
+                "type": "folleto",
+                "price": 2,
+                "image": "RazVerbal-etimologia.jpeg"
+            },
+            {
+                "id": "022",
+                "name": "Comprensión de textos",
+                "type": "folleto",
+                "price": 2,
+                "image": "RazVerbal-textos.jpeg"
             }
         ]
     }

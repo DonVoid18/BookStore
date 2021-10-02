@@ -65,7 +65,7 @@ function createBook(imagen,name,type,price,code){
     
     let book_name = document.createElement("DIV");
     book_name.classList.add("book-information-name");
-    book_name.innerHTML = `<h4>${name}</h4>`;
+    book_name.innerHTML = `<h4 class="book-name-text">${name}</h4>`;
     container_information.appendChild(book_name);
     
     let book_type = document.createElement("DIV");
@@ -75,7 +75,7 @@ function createBook(imagen,name,type,price,code){
     
     let book_price = document.createElement("DIV");
     book_price.classList.add("book-information-price");
-    book_price.innerHTML = `<p><strong>${price}</strong></p>`;
+    book_price.innerHTML = `<p><strong>S/. ${price}.00</strong></p>`;
     container_information.appendChild(book_price);
     
     let book_code = document.createElement("DIV");

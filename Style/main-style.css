@@ -10,7 +10,7 @@ main{
     padding: 0.625rem 0;
 }
 .container-section-title{
-    background-color: #D90429;
+    background-color: var(--color-1);
     color: white;
     padding: 1.25rem;
     text-align: center;

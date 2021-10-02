@@ -3,6 +3,10 @@
     margin: 0;
     box-sizing: border-box;
 }
+:root{
+    --color-1: #DF0C2E;
+    --color-2: #2B2D42;
+}
 html{
     font-size: 16px;
     font-family: 'Roboto', sans-serif;
@@ -15,7 +19,7 @@ body{
 /* css del header de la pagina */
 .header-principal{
     width: 100%;
-    background-color: #2B2D42;
+    background-color: var(--color-2);
     color: white;
 }
 .container-header{
